@@ -1,0 +1,82 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(imagem/fundo-madeira.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login-card {
+    padding: 14px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 22px ;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.416);
+    backdrop-filter: blur(7px);
+
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.input-box {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.12);
+    padding: 12px;
+    border-radius: 6px;
+    margin: 20px;
+
+
+}
+.icon {
+    margin-right: 10px;
+
+}
+.input-box input{
+  background: rgba(0, 0, 0, 0.16);
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+}
+.input-box input::placeholder{
+    color: white
+
+}
+.options {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 12px;}
+    .link {
+        color: #ddd;
+        text-decoration: none;
+        margin: 14px;
+    }
+    .link-p {
+        text-align: center;
+        margin-top: 10px;
+
+    }
+    .bnt {
+        width: 100%;
+        padding: 10px;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
